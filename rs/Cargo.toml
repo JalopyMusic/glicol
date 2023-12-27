@@ -1,7 +1,5 @@
 [workspace]
-default-members = ["main"]
-exclude = ["wasm"]
-members = ["main", "parser", "synth", "macros"]
+members = ["synth"]
 
 [workspace.package]
 version = "0.13.3"
